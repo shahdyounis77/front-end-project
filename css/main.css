@@ -1,0 +1,484 @@
+
+
+body{
+    background-image: url(../img/bg.jpg);
+    height: 2100px;
+    margin: 0;
+    padding: 0;
+
+    
+    
+}
+.hero{
+    background-color: rgba(33, 56, 71, 0.5);
+    
+    margin: 0;
+}
+
+.hero .test{
+    padding-top: 25px;
+}
+
+.hero .test h1 {
+    
+    
+    font-weight: 700;
+    
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+.hero .test h2{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+
+}
+.hero .test1 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero .row{
+    width: 50%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+    margin-left: 400px;
+    margin-top: 70px;
+    
+}
+.hero .row .test1{
+    
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 120px;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+.hero .input {
+    width: 430px;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    margin:auto
+    
+
+
+}
+.hero .input h4{
+    color: white;
+    font-size:20px;
+    font-weight: 600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.hero .input input{
+    width:220px ;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+    
+}
+
+.hero .input button{
+    color: white
+    ;
+    padding-left: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px ;
+    border: 2px solid rgb(166, 227, 74);
+    position: absolute;
+    right: 100px;
+    background-color: rgb(105, 226, 105);
+} 
+.hero .i {
+    text-align: center;
+    margin-left: 15px;
+}
+.hero .i i{
+    
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    font-size: 30px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.hero .i i:hover{
+    transition: all 0.5;
+    background-color: rgb(15, 213, 140);
+}
+
+.hero .row2{
+    width:50% ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.hero .icon{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+  
+}
+.hero .icon img{
+    width: 100%;
+    height: 100%;
+}
+/* end hero section*/
+#about{
+    padding: 150px;
+}
+.hero #about .about-header h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    
+
+}
+.hero #about .about-header hr{
+    width: 30px;
+    
+    border: 1px solid rgb(106, 235, 106);
+}
+.hero #about .about-header p{
+    text-align: center;
+    font-size: 22px;
+    
+    color: white;
+    
+
+}
+
+.hero #about .row2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+
+.hero #about .row2 .about-body{
+    width: 380px;
+    text-align: center;
+
+    box-sizing: border-box;
+    
+    color: white;
+
+}
+.hero #about .row2 .about-body i{
+    font-size: 30px;
+}
+.hero #about .row2 .about-body h1{
+    text-align: center;
+    
+
+}
+
+.hero .contact-header{
+    
+    height: 800px;
+}
+
+.hero .contact-header .header{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 4px;
+
+}
+.hero .contact-header .header hr{
+    width: 30px;
+    border: 1px solid rgb(106, 235, 106);
+    
+}
+.hero .contact-header .row3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top:30px ;
+    padding: 30px;
+}
+.hero .contact-header .row3 .cont {
+    width:40%;
+    height: 466px;
+    
+    border-bottom: 3px solid rgb(86, 216, 127);
+    border-top: 3px solid rgb(86, 216, 127);
+    padding: 20px;
+    background-color: rgba(33, 56, 71, 0.182);
+    
+}
+
+.hero .contact-header .row3 .cont form{
+    position: relative;
+    transition: all 0.5;
+}
+.hero .contact-header .row3 .cont form .name{
+    position: absolute;
+    font-size: 17px;
+    left: -10px;
+    top: -8px;
+    padding-left: 10px;
+    color: white;
+
+}
+.hero .contact-header .row3 .cont form .email{
+    position: absolute;
+    font-size: 17px;
+    right: 179px;
+    top: -8px;
+    color: white;
+
+}
+.hero .contact-header .row3 .cont form .subject{
+    position: absolute;
+    top: 75px;
+    color: white;
+    font-size: 22px;
+    
+}
+.hero .contact-header .row3 .cont form .message{
+    position: absolute;
+    top: 150px;
+    color: white;
+    font-size: 22px;
+    
+}
+
+.input1{
+    
+    display: inline;
+    height: 33px;
+    position: absolute;
+    top: 15px;
+    padding-right: 80px;
+    border: 1px solid white;
+    
+
+}
+.input2{
+    display: inline;
+    height: 33px;
+    position: absolute;
+    top: 15px;
+    right: -5px;
+    width: 250px;
+    border: 1px solid white;
+
+}
+.input3{
+    width: 566px;
+    display: inline;
+    height: 33px;
+    position: absolute;
+    top: 100px;
+    border: 1px solid white;
+}
+.input4{
+    width: 566px;
+    height: 200px;
+    display: inline;
+    
+    position: absolute;
+    top: 180px;
+    border: 1px solid white;
+}
+.hero .contact-header .row3 .cont form button{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: rgb(32, 186, 117);
+    color: white;
+}
+.hero .contact-header .row3 .cont form button:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.5;
+}
+.style{
+    background-color: rgba(33, 56, 71, 0.182);
+    border-bottom: 3px solid rgb(86, 216, 127);
+    border-top: 3px solid rgb(86, 216, 127);
+}
+.cont1{
+    width: 350px;
+    position: relative;
+}
+
+.div1{
+    
+    width: 100%;
+    padding-left: 10px;
+}
+
+.div1 i{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    font-size: 22px;
+    position: absolute;
+    top: 55px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+    
+}
+.div1:hover i{
+    transition: all 0.5;
+    background-color: rgb(15, 213, 140);
+}
+.div1 h4{
+    font-size: 25px;
+    position: absolute;
+    top:28px;
+    padding-left: 43px;
+    color: white;
+    
+    
+    
+}
+.div1 p{
+    position: absolute;
+    top: 70px;
+    padding-left: 43px;
+    color: white;
+    
+}
+.div2{
+   
+    width: 100%;
+    padding-left: 10px;
+}
+.div2 i{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    font-size: 22px;
+    position: absolute;
+    top: 150px;
+    
+    padding-left: 8px;
+    padding-top: 10px;
+    
+}
+.div2:hover i{
+    transition: all 0.5;
+    background-color: rgb(15, 213, 140);
+}
+.div2 h4{
+    font-size: 25px;
+    position: absolute;
+    top: 120px;
+    padding-left: 43px;
+    color: white;
+}
+.div2 p{
+    position: absolute;
+    top: 166px;
+    padding-left: 43px;
+    color: white;
+
+}
+.div3{
+    
+    width: 100%;
+    padding-left: 10px;
+    transition: all 0.5;
+}
+.div3 i{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    font-size: 22px;
+    position: absolute;
+    top: 244px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+    
+    
+}
+.div3 h4{
+    font-size: 25px;
+    position: absolute;
+    top: 210px;
+    padding-left: 43px;
+    color: white;
+    
+}
+.div3 p{
+    position: absolute;
+    top: 259px;
+    padding-left: 43px;
+    color: white;
+}
+.div3:hover i{
+    transition: all 0.5;
+    background-color: rgb(15, 213, 140);
+}
+.div4{
+    padding: 20px;
+    position: absolute;
+    top: 300px;
+}
+
+
+/* start footer*/
+.foot{
+    background-color: rgba(33, 56, 71, 0.6);
+    height: 100px;
+    
+}
+.foot div{
+    
+    width: 100%;
+    
+    
+    padding-top: 35px;
+    text-align: center;
+
+
+}
+.foot div .p1{
+    color: rgba(255, 255, 255, 0.847);
+    display: inline;
+    
+}
+.foot div .p1 b{
+    font-weight: bold;
+    color: white;
+    display: inline;
+    
+}
+.foot div .p2{
+    color: rgba(255, 255, 255, 0.847);
+}
+.foot div .p2 b{
+    color: rgb(64, 228, 146);
+}
+
+
+
+
+
+
+
